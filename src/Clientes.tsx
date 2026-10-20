@@ -50,9 +50,6 @@ export default function Clientes() {
             </div>
           </div>
           <div>
-            <div className="mb-6 p-4 bg-[#FFD700] text-[#121212] rounded-2xl font-bold text-sm sm:text-base border-2 border-[#121212]">
-              Use o CÓDIGO CONVITE: <span className="underline">557315</span> no cadastro para liberar todas as vantagens!
-            </div>
             <h4 className="font-bold text-lg mb-4 text-[#121212]">Baixe o App Agora e Aproveite</h4>
             <div className="flex flex-col sm:flex-row flex-wrap gap-4">
               <a href="https://play.google.com/store/apps/details?id=vfbank.portador" target="_blank" rel="noopener noreferrer" className="bg-[#121212] hover:opacity-90 text-[#FFFFFF] px-6 py-3.5 rounded-xl flex items-center justify-center sm:justify-start gap-4 transition duration-300 shadow-lg w-full sm:w-56">

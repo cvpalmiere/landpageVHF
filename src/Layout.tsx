@@ -11,12 +11,12 @@ export default function Layout() {
     <div className="font-sans antialiased text-[#121212] bg-[#FFFFFF] selection:bg-[#FFD700] selection:text-[#121212] flex flex-col min-h-screen">
       <nav className="bg-[#121212] border-b border-[#FFD700]/20 text-[#FFFFFF] px-6 py-4 sticky top-0 z-50 shadow-md">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <Link to="/" onClick={fecharMenu} className="text-[#FFD700] font-bold text-2xl tracking-tight flex items-center gap-3 hover:opacity-90 transition-opacity">
-            <div className="w-9 h-9 bg-[#FFD700] rounded-xl flex items-center justify-center text-[#121212] text-sm font-bold shadow-sm">
-              VB
-            </div>
-            VHF BANK
+          {/* Logo no Cabeçalho */}
+          <Link to="/" onClick={fecharMenu} className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+            <img src="/logoLandPageVHF.png" alt="VHF Bank Logo" className="w-10 h-10 rounded-xl object-cover shadow-sm border border-[#FFD700]/30" />
+            <span className="text-[#FFD700] font-bold text-2xl tracking-tight">VHF BANK</span>
           </Link>
+
           <div className="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
             <Link to="/" className="hover:text-[#FFD700] transition duration-300">Sobre</Link>
             <Link to="/clientes" className="hover:text-[#FFD700] transition duration-300">Para Clientes</Link>
@@ -44,7 +44,11 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="bg-[#121212] text-[#FFFFFF] py-12 px-6 text-center border-t border-[#FFD700]/20 mt-auto">
-        <div className="text-[#FFD700] font-bold text-2xl tracking-tight mb-4">VHF BANK</div>
+        {/* Logo no Rodapé */}
+        <div className="flex justify-center items-center gap-3 mb-4">
+          <img src="/logo.jpg" alt="VHF Bank Logo" className="w-9 h-9 rounded-xl object-cover shadow-sm border border-[#FFD700]/30" />
+          <span className="text-[#FFD700] font-bold text-2xl tracking-tight">VHF BANK</span>
+        </div>
         <p className="text-sm text-[#FFFFFF]/70 font-medium tracking-wide">Todos os direitos reservados.</p>
       </footer>
     </div>
