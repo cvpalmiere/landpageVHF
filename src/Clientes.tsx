@@ -73,12 +73,15 @@ export default function Clientes() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 relative">
-          <div className="aspect-[4/5] bg-[#121212] overflow-hidden rounded-3xl shadow-xl border-2 border-[#121212]">
-            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=800&h=1000" alt="Cliente usando celular para pagar" className="w-full h-full object-cover hover:scale-105 transition duration-700" />
-          </div>
-          <div className="aspect-[4/5] bg-[#121212] sm:mt-12 overflow-hidden rounded-3xl shadow-xl border-2 border-[#121212]">
-            <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&q=80&w=800&h=1000" alt="Aplicativo de cashback no celular" className="w-full h-full object-cover hover:scale-105 transition duration-700" />
+
+        {/* Exibindo apenas a foto única foto1VHF.png */}
+        <div className="flex justify-center">
+          <div className="w-full max-w-md aspect-[4/5] bg-[#121212] overflow-hidden rounded-3xl shadow-xl border-2 border-[#121212]">
+            <img 
+              src="/foto1VHF.png" 
+              alt="VHF Bank Aplicativo" 
+              className="w-full h-full object-cover hover:scale-105 transition duration-700" 
+            />
           </div>
         </div>
       </div>
