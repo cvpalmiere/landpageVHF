@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/landpageVHF/',
+  base: './', // <--- O segredo mágico para nunca mais dar erro de caminho
 });
