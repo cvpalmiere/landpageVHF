@@ -47,10 +47,20 @@ export default function Empresas() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-5 justify-center">
-          <a href="https://wa.me/5561983306686" target="_blank" rel="noopener noreferrer" className="bg-[#121212] text-[#FFFFFF] px-8 py-4 font-bold text-base md:text-lg rounded-full hover:opacity-90 transition duration-300 text-center shadow-lg">
+          <a 
+            href="https://wa.me/5561983306686" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-[#121212] text-[#FFFFFF] px-8 py-4 font-bold text-base md:text-lg rounded-full hover:opacity-90 transition duration-300 text-center shadow-lg"
+          >
             Falar com um Especialista
           </a>
-          <a href="https://vfbank.conectar.site/lojista/site/gerenciar" target="_blank" rel="noopener noreferrer" className="bg-[#FFD700] text-[#121212] px-8 py-4 font-bold text-base md:text-lg rounded-full hover:opacity-90 transition duration-300 text-center shadow-lg flex items-center justify-center gap-2">
+          <a 
+            href="https://wa.me/5561983306686?text=Ol%C3%A1%2C%20quero%20cadastrar%20minha%20empresa" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="bg-[#FFD700] text-[#121212] px-8 py-4 font-bold text-base md:text-lg rounded-full hover:opacity-90 transition duration-300 text-center shadow-lg flex items-center justify-center gap-2"
+          >
             Cadastrar Minha Empresa
             <ArrowRight size={20} />
           </a>
