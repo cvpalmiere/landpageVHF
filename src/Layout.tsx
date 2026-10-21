@@ -13,7 +13,7 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Nova Logo no Cabeçalho */}
           <Link to="/" onClick={fecharMenu} className="flex items-center hover:opacity-90 transition-opacity">
-            <img src="/LogoAmarelaVHF.png" alt="VHF Bank" className="h-12 w-auto object-contain rounded-lg" />
+            <img src="/LogoAmarelaVHF.jpeg" alt="VHF Bank" className="h-12 w-auto object-contain rounded-lg" />
           </Link>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
@@ -44,7 +44,7 @@ export default function Layout() {
       </main>
       <footer className="bg-[#121212] text-[#FFFFFF] py-12 px-6 text-center border-t border-[#FFD700]/20 mt-auto flex flex-col items-center justify-center gap-4">
         {/* Nova Logo no Rodapé */}
-        <img src="/LogoAmarelaVHF.png" alt="VHF Bank" className="h-10 w-auto object-contain rounded-lg" />
+        <img src="/LogoAmarelaVHF.jpeg" alt="VHF Bank" className="h-10 w-auto object-contain rounded-lg" />
         <p className="text-sm text-[#FFFFFF]/70 font-medium tracking-wide">Todos os direitos reservados.</p>
       </footer>
     </div>
